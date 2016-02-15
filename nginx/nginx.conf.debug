@@ -1,0 +1,45 @@
+#
+# WPN-XM Server Stack
+#
+# Nginx Configuration File (debug)
+#
+# Notes:
+#
+# 1. Nginx is started with param "-p".
+#    This sets the root folder of the server as base path for Nginx.
+# 2. PHP listens on port 9100.
+#    The default PHP handler is defined via "fastcgi_pass 127.0.0.1:9100;".
+# 3. This is a minimum configuration file for debugging purposes.
+
+worker_processes  1;
+
+events {
+    worker_connections  1024;
+}
+
+http {
+    include       mime.types;
+    default_type  application/octet-stream;
+
+    server {
+        # access from localhost only
+        listen       127.0.0.1:80;
+        server_name  localhost;
+        root         www;
+
+        # handle files in the root path /www
+        location / {
+            index  index.php index.html index.htm;
+        }
+
+        # pass the PHP scripts to FastCGI server listening on 127.0.0.1:9100
+        location ~ \.php$ {
+            try_files      $uri =404;
+            fastcgi_pass   127.0.0.1:9100;
+            fastcgi_index  index.php;
+            fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;
+            fastcgi_param  REMOTE_ADDR $http_x_real_ip;
+            include        fastcgi_params;
+        }
+    }
+}
