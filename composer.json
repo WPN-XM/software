@@ -1,0 +1,29 @@
+{
+    "name": "WPN-XM/software",
+    "description": "Software Assets of the WPN-XM Server Stack",
+    "type": "library",
+    "keywords": ["wpn-xm", "server", "stack", "software", "components", "registry"],
+    "homepage": "http://wpn-xm.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jens A. Koch",
+            "email": "jakoch@web.de",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email":    "support@wpn-xm.org",
+        "issues":   "https://github.com/WPN-XM/WPN-XM/issues",
+        "forum":    "http://wpn-xm.org.org/forums/",
+        "wiki":     "https://github.com/WPN-XM/WPN-XM/wiki",
+        "irc":      "irc://irc.freenode.org/koch",
+        "source":   "https://github.com/WPN-XM/software",
+        "docs":     "https://github.com/WPN-XM/docs"
+    },
+    "autoload": {
+        "psr-4": {
+            "WPNXM\\Software\\": ""
+        },
+    }
+}
