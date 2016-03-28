@@ -1,5 +1,5 @@
 {
-    "name": "WPN-XM/software",
+    "name": "wpn-xm/software",
     "description": "Software Assets of the WPN-XM Server Stack",
     "type": "library",
     "keywords": ["wpn-xm", "server", "stack", "software", "components", "registry"],
@@ -24,6 +24,6 @@
     "autoload": {
         "psr-4": {
             "WPNXM\\Software\\": ""
-        },
+        }
     }
 }
