@@ -1,0 +1,16 @@
+{
+    "name": "FakeSendmail",
+    "website": "http:\/\/glob.com.au\/sendmail\/",
+    "description": "",
+    "category": "",
+    "tags": [],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    }
+}
