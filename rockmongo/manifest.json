@@ -1,0 +1,21 @@
+{
+    "name": "RockMongo",
+    "website": "http:\/\/rockmongo.com\/",
+    "description": "RockMongo is a MongoDB administration tool, written in PHP 5.",
+    "category": "tool",
+    "tags": [
+        "mongodb",
+        "administration",
+        "tool",
+        "database"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    }
+}
