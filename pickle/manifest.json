@@ -1,0 +1,20 @@
+{
+    "name": "pickle",
+    "website": "https:\/\/github.com\/FriendsOfPHP\/pickle",
+    "description": "PHP Extension Installer.",
+    "category": "php",
+    "tags": [
+        "php",
+        "extension",
+        "installer"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    }
+}
