@@ -1,0 +1,24 @@
+{
+    "name": "QCacheGrind",
+    "website": "https:\/\/sourceforge.net\/projects\/qcachegrindwin\/",
+    "description": "QCacheGrind (KCacheGrind) Windows build The QCacheGrind branch of KCacheGrind compiled with the QT5 toolkit for use in Windows. This tool allows visualisation of profiling data in the callgrind-format.",
+    "category": "profiler",
+    "tags": [
+        "profiling",
+        "debugging",
+        "tracing",
+        "xdebug"
+    ],
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    },
+    "bitsize": {
+        "x64": true,
+        "x86": true
+    }
+}
