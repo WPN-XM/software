@@ -1,0 +1,26 @@
+{
+    "name": "RethinkDB",
+    "website": "https:\/\/www.rethinkdb.com\/",
+    "description": "RethinkDB is an open-source, scalable JSON database built from the ground up for the realtime web. ",
+    "category": "database",
+    "tags": [
+        "database",
+        "nosql",
+        "distributed",
+        "realtime",
+        "push",
+        "json"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    },
+    "bitsize": {
+        "x64": true
+    }
+}
