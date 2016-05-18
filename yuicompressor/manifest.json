@@ -1,0 +1,16 @@
+{
+    "name": "yuicompressor",
+    "website": "http:\/\/yui.github.io\/yuicompressor\/",
+    "description": "YUI Compressor is JavaScript minifier designed to be 100% safe and yield a higher compression ratio than most other tools.",
+    "category": "tool",
+    "tags": [],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    }
+}
