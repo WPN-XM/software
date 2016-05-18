@@ -1,0 +1,22 @@
+{
+    "name": "InfluxDb",
+    "website": "https:\/\/influxdb.com\/",
+    "description": "InfluxDB is an open source distributed time series database with no external dependencies. It's useful for recording metrics, events, and performing analytics.",
+    "category": "database",
+    "tags": [
+        "database",
+        "time-series"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    },
+    "bitsize": {
+        "x64": true
+    }
+}
