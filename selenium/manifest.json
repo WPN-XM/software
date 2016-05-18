@@ -1,0 +1,21 @@
+{
+    "name": "Selenium",
+    "website": "http:\/\/seleniumhq.org",
+    "description": "Selenium is a portable software testing framework for web applications. Selenium provides a record\/playback tool for authoring tests without learning a test scripting language (Selenium IDE). It also provides a test domain-specific language (Selenese) to write tests in a number of popular programming languages.",
+    "category": "testing",
+    "tags": [
+        "testing",
+        "automation",
+        "headless",
+        "acceptance tests"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    }
+}
