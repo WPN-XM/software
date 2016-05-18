@@ -1,0 +1,21 @@
+{
+    "name": "RoboMongo",
+    "website": "http:\/\/robomongo.com\/",
+    "description": "MongoDB management tool.",
+    "category": "tool",
+    "tags": [
+        "mongodb",
+        "administration",
+        "tool",
+        "database"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    }
+}
