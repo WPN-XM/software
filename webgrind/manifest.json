@@ -1,0 +1,22 @@
+{
+    "name": "Webgrind",
+    "website": "https:\/\/github.com\/jokkedk\/webgrind",
+    "description": "Xdebug Profiling Web Frontend in PHP",
+    "category": "profiler",
+    "tags": [
+        "php",
+        "xdebug",
+        "profiling",
+        "gui",
+        "debugging"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    }
+}
