@@ -1,0 +1,24 @@
+{
+    "name": "PostgreSQL",
+    "website": "http:\/\/www.postgresql.org\/",
+    "description": "PostgreSQL, often simply Postgres, is an object-relational database management system (ORDBMS) with an emphasis on extensibility and standards-compliance.",
+    "category": "database",
+    "tags": [
+        "database",
+        "sql",
+        "dbms",
+        "ordbms"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    },
+    "bitsize": {
+        "x64": true
+    }
+}
