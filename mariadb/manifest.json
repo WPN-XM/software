@@ -1,0 +1,19 @@
+{
+    "name": "MariaDB",
+    "website": "http:\/\/mariadb.org\/",
+    "description": "MariaDB surpasses MySQL as a leader in open source database solutions by delivering enterprise-level high availability, scalability and security.",
+    "category": "",
+    "tags": [],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    },
+    "bitsize": {
+        "x64": true
+    }
+}
