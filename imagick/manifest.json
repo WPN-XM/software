@@ -1,0 +1,23 @@
+{
+    "name": "Imagick",
+    "website": "http:\/\/imagemagick.org\/",
+    "description": "ImageMagick\u00ae is a software suite to create, edit, compose, or convert bitmap images. ",
+    "category": "tool",
+    "tags": [
+        "image",
+        "tool",
+        "convert"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    },
+    "bitsize": {
+        "x64": true
+    }
+}
