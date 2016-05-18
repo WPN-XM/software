@@ -1,0 +1,20 @@
+{
+    "name": "GoogleClosureCompiler",
+    "website": "http:\/\/code.google.com\/p\/closure-compiler\/",
+    "description": "The Closure Compiler is a tool for making JavaScript download and run faster. It is a true compiler for JavaScript.",
+    "category": "tool",
+    "tags": [
+        "javascript",
+        "compiler",
+        "minimizer"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    }
+}
