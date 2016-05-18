@@ -1,0 +1,21 @@
+{
+    "name": "WPN-XMSCP",
+    "website": "http:\/\/wpn-xm.org\/",
+    "description": "The WPN-XM Server Control Panel is a server administration GUI written in C++ using Qt.",
+    "category": "wpnxm",
+    "tags": [
+        "wpnxm"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    },
+    "bitsize": {
+        "x64": true
+    }
+}
