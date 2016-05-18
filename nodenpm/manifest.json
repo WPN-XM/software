@@ -1,0 +1,21 @@
+{
+    "name": "NodeNPM",
+    "website": "http:\/\/nodejs.org\/",
+    "description": "Package manager. Installs, publishes and manages node programs.",
+    "category": "",
+    "tags": [
+        "node",
+        "npm",
+        "package manager",
+        "dependency manager"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    }
+}
