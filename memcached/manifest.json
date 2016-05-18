@@ -1,0 +1,21 @@
+{
+    "name": "Memcached",
+    "website": "http:\/\/memcached.org\/",
+    "description": "Memcached is an in-memory key-value store for small chunks of arbitrary data (strings, objects) from results of database calls, API calls, or page rendering.",
+    "category": "database",
+    "tags": [
+        "in-memory",
+        "key-value-store",
+        "database",
+        "cache"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    }
+}
