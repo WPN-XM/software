@@ -1,0 +1,22 @@
+{
+    "name": "ArangoDB",
+    "website": "https:\/\/www.arangodb.com\/",
+    "description": "ArangoDb is a distributed free and open-source database with a flexible data model for documents, graphs, and key-values. Build high performance applications using a convenient SQL-like query language or JavaScript extensions.",
+    "category": "database",
+    "tags": [
+        "database",
+        "nosql"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    },
+    "bitsize": {
+        "x64": true
+    }
+}
