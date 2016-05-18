@@ -1,0 +1,22 @@
+{
+    "name": "SphinxSearch",
+    "website": "http:\/\/sphinxsearch.com\/",
+    "description": "Sphinx is an open source full text search server, designed with performance, relevance (search quality), and integration simplicity in mind.",
+    "category": "server",
+    "tags": [
+        "search",
+        "full-text"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    },
+    "bitsize": {
+        "x64": true
+    }
+}
