@@ -1,0 +1,16 @@
+{
+    "name": "VarnishCache",
+    "website": "https:\/\/www.varnish-cache.org\/",
+    "description": "Varnish is an HTTP accelerator designed for content-heavy dynamic web sites as well as heavily consumed APIs.",
+    "category": "",
+    "tags": [],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    }
+}
