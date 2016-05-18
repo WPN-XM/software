@@ -1,0 +1,25 @@
+{
+    "name": "GitforWindows",
+    "website": "http:\/\/msysgit.github.io\/",
+    "description": "Git for Windows focuses on offering a lightweight, native set of tools that bring the full feature set of the Git SCM to Windows while providing appropriate user interfaces for experienced Git users and novices alike.",
+    "category": "git",
+    "tags": [
+        "git",
+        "git-scm",
+        "scm",
+        "cli",
+        "bash"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    },
+    "bitsize": {
+        "x64": true
+    }
+}
