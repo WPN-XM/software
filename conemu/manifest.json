@@ -1,0 +1,20 @@
+{
+    "name": "ConEmu",
+    "website": "http:\/\/conemu.github.io\/",
+    "description": "ConEmu is a customizable Windows terminal with tabs, splits, quake-style and more.",
+    "category": "tool",
+    "tags": [
+        "console",
+        "emulator",
+        "cli"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    }
+}
