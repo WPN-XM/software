@@ -1,0 +1,16 @@
+{
+    "name": "PEAR",
+    "website": "http:\/\/pear.php.net\/",
+    "description": "The PHP Extension and Application Repository (PEAR) is a framework and distribution system for reusable PHP components.",
+    "category": "",
+    "tags": [],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    }
+}
