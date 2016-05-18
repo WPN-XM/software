@@ -1,0 +1,21 @@
+{
+    "name": "phpMyAdmin",
+    "website": "http:\/\/phpmyadmin.net\/",
+    "description": "A tool written in PHP intended to handle the administration of MySQL over the WWW.",
+    "category": "php",
+    "tags": [
+        "web-based",
+        "database",
+        "administration",
+        "tool"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    }
+}
