@@ -1,0 +1,19 @@
+{
+    "name": "OrientDb",
+    "website": "http:\/\/orientdb.com\/",
+    "description": "OrientDB is a 2nd Generation Distributed Graph Database with the flexibility of Documents in one product with an Open Source commercial friendly license.",
+    "category": "database",
+    "tags": [
+        "database",
+        "nosql"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    }
+}
