@@ -1,0 +1,19 @@
+{
+    "name": "Composer",
+    "website": "http:\/\/getcomposer.org\/",
+    "description": "Composer is a tool for dependency management in PHP. It allows you to declare the libraries your project depends on and it will manage (install\/update) them for you.",
+    "category": "tool",
+    "tags": [
+        "php",
+        "dependency-manager"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    }
+}
