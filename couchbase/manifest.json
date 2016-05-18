@@ -1,0 +1,22 @@
+{
+    "name": "Couchbase",
+    "website": "http:\/\/couchbase.com\/",
+    "description": "Couchbase Server, originally known as Membase, is an open-source, distributed (shared-nothing architecture) multi-model NoSQL document-oriented database that is optimized for interactive applications.",
+    "category": "database",
+    "tags": [
+        "database",
+        "nosql"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    },
+    "bitsize": {
+        "x64": true
+    }
+}
