@@ -1,0 +1,22 @@
+{
+    "name": "Cassandra",
+    "website": "http:\/\/cassandra.apache.org\/",
+    "description": "Cassandra is a distributed database for managing large amounts of structured data across many commodity servers, while providing highly available service and no single point of failure.",
+    "category": "database",
+    "tags": [
+        "database",
+        "nosql"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    },
+    "bitsize": {
+        "x64": true
+    }
+}
