@@ -1,0 +1,23 @@
+{
+    "name": "ChromeDriver",
+    "website": "https:\/\/sites.google.com\/a\/chromium.org\/chromedriver\/",
+    "description": "ChromeDriver is a standalone server implementing the WebDriver wire protocol.",
+    "category": "",
+    "tags": [
+        "browser",
+        "automation",
+        "chromium",
+        "webdriver",
+        "headless",
+        "acceptance tests"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    }
+}
