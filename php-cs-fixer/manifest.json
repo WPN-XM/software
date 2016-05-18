@@ -1,0 +1,16 @@
+{
+    "name": "PHPCSFixer",
+    "website": "http:\/\/cs.sensiolabs.org\/",
+    "description": "",
+    "category": "",
+    "tags": [],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    }
+}
