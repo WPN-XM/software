@@ -1,0 +1,19 @@
+{
+    "name": "OpenSSL(32-bit)",
+    "website": "http:\/\/indy.fulgan.com\/SSL\/",
+    "category": "",
+    "description": "A toolkit implementing SSL v2\/v3 and TLS protocols with full-strength cryptography world-wide.",
+    "logo": "",
+    "tags": [],
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    },
+    "bitsize": {
+        "x64": true
+    }
+}
