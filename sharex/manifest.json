@@ -1,0 +1,20 @@
+{
+    "name": "ShareX",
+    "website": "https:\/\/getsharex.com\/",
+    "description": "ShareX is an open source program that lets you take screenshots or screencasts of any selected area with a single key, save them in your clipboard, hard disk or instantly upload them to over 30 different file hosting services.",
+    "category": "tool",
+    "tags": [
+        "tool",
+        "screenshots",
+        "screencasts"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    }
+}
