@@ -1,0 +1,20 @@
+{
+    "name": "phpMemcachedAdmin",
+    "website": "http:\/\/code.google.com\/p\/phpmemcacheadmin\/",
+    "description": "phpMemcachedAdmin provides a web based interface to monitor and manage the memcached service.",
+    "category": "php",
+    "tags": [
+        "web-based",
+        "administration",
+        "tool"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    }
+}
