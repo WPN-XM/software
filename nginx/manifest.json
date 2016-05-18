@@ -1,0 +1,20 @@
+{
+    "name": "Nginx",
+    "website": "http:\/\/nginx.org\/",
+    "description": "NGINX is a free, open-source, high-performance HTTP server, reverse proxy, and IMAP\/POP3 proxy server.",
+    "category": "webserver",
+    "tags": [
+        "webserver",
+        "reverse-proxy",
+        "proxy"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    }
+}
