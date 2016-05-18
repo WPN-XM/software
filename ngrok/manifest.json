@@ -1,0 +1,19 @@
+{
+    "name": "ngrokx32",
+    "website": "https:\/\/ngrok.com\/",
+    "description": "ngrok secure introspectable tunnels to localhost webhook development tool and debugging tool.",
+    "category": "network",
+    "tags": [
+        "network",
+        "tunnel"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    }
+}
