@@ -1,0 +1,19 @@
+{
+    "name": "NodeJSx32",
+    "website": "http:\/\/nodejs.org\/",
+    "description": "Node is an event-driven I\/O server-side JavaScript environment based on V8.",
+    "category": "",
+    "tags": [],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    },
+    "bitsize": {
+        "x64": true
+    }
+}
