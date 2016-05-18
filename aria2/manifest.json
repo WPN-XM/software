@@ -1,0 +1,23 @@
+{
+    "name": "aria2",
+    "website": "https:\/\/github.com\/tatsuhiro-t\/aria2",
+    "description": "aria2 is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It supports HTTP\/HTTPS, FTP, SFTP, BitTorrent and Metalink.",
+    "category": "tool",
+    "tags": [
+        "download",
+        "tool"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    },
+    "bitsize": {
+        "x64": true,
+        "x86": true
+    }
+}
