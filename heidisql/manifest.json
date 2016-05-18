@@ -1,0 +1,20 @@
+{
+    "name": "HeidiSQL",
+    "website": "http:\/\/www.heidisql.com\/",
+    "description": "HeidiSQL is a powerful and easy client for MySQL, MariaDB, Microsoft SQL Server and PostgreSQL.",
+    "category": "tool",
+    "tags": [
+        "database",
+        "administration",
+        "tool"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    }
+}
