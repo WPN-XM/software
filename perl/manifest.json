@@ -1,0 +1,19 @@
+{
+    "name": "StrawberryPerl",
+    "website": "http:\/\/strawberryperl.com\/",
+    "description": "Perl 5 is a highly capable, feature-rich programming language with over 27 years of development.",
+    "category": "language",
+    "tags": [],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    },
+    "bitsize": {
+        "x64": true
+    }
+}
