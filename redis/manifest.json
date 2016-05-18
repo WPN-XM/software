@@ -1,0 +1,21 @@
+{
+    "name": "Redis",
+    "website": "http:\/\/redis.io\/",
+    "description": "Redis is an open source, in-memory data structure store, used as database, cache and message broker.",
+    "category": "database",
+    "tags": [
+        "database",
+        "cache",
+        "message broker",
+        "in-memory"
+    ],
+    "logo": "",
+    "tasks": {
+        "install": "todo",
+        "uninstall": "todo",
+        "update": "todo",
+        "backup": "todo",
+        "restore": "todo",
+        "version": "todo"
+    }
+}
