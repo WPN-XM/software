@@ -18,18 +18,18 @@ use WPNXM\Webinterface\SoftwareBase;
  */
 class Pickle extends SoftwareBase
 {
-    public $name = 'pickle';
-
-    public $registryName = 'pickle';
-
-    public $installationFolder = /* WPNXM_ROOT . */ '\bin\pickle';
-
-    public $files = [
-        '\bin\pickle\pickle.exe',
-    ];
-
+    public $name                = 'Pickle';
+    public $registryName        = 'pickle';
+    public $installationFolder  = '\bin\pickle';
+    public $files               = '\bin\pickle\pickle.phar';
+    
     public function __invoke()
     {
         echo __CLASS__ . ' invoked';
+    }
+
+    public function getVersion()
+    {
+        return 'Not implemented, yet.';
     }
 }
