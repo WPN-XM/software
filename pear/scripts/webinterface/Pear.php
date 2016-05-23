@@ -20,13 +20,40 @@ class Pear extends SoftwareBase
 {
     public $name = 'PEAR';
 
-    public $registryName = 'pear';
+    public $registryName = 'PEAR';
 
-    public $installationFolder = /* WPNXM_ROOT . */ '\bin\pear';
+    public $installationFolder = '\bin\php\PEAR';
 
-    public $files = [
-        '\bin\pear\pear.exe',
-    ];
+    /**
+     * Returns PHP Version.
+     *
+     * @return string PHP Version
+     */
+    public function getVersion()
+    {
+        // load and parse a PEAR file to get the version, alternative to "pear.bat -V"
+        $file = WPNXM_BIN.'php\PEAR\pear\PEAR\Autoloader.php';
+
+        # fail safe, if PEAR not installed
+        if (is_file($file) === false) {
+            return \Webinterface\Helper\Serverstack::printExclamationMark('The PHP Extension "mysqli" is required.');
+        }
+
+        $maxLines = 60; // read only the first few lines of the file
+
+        $file_handle = fopen($file, 'r');
+
+        for ($i = 1; $i < $maxLines && !feof($file_handle); $i++) {
+            $line_of_text = fgetcsv($file_handle, 1024);
+            if (strpos($line_of_text[0], '@version')) {
+                // lets grab the version from the phpdoc tag
+                preg_match('/\/* @version[\s]+Release: (\d+.\d+.\d+)/', $line_of_text[0], $matches);
+            }
+        }
+        fclose($file_handle);
+
+        return $versions = $matches[1];
+    }
 
     public function __invoke()
     {
