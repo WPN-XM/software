@@ -40,7 +40,7 @@ class XDebug extends SoftwareBase
     public function getVersion()
     {
         $xdebug_version = 'false';
-        $phpinfo        = \Webinterface\Helper\PHPInfo::getPHPInfo(true);
+        $phpinfo        = \WPNXM\Webinterface\Helper\PHPInfo::getPHPInfo(true);
 
         // Check phpinfo content for Xdebug as Zend Extension
         if (preg_match('/with\sXdebug\sv([0-9.rcdevalphabeta-]+),/', $phpinfo, $matches)) {
@@ -52,7 +52,7 @@ class XDebug extends SoftwareBase
 
     public static function getXDebugExtensionType()
     {
-        $phpinfo = \Webinterface\Helper\PHPInfo::getPHPInfo(true);
+        $phpinfo = \WPNXM\Webinterface\Helper\PHPInfo::getPHPInfo(true);
 
         // Check phpinfo content for Xdebug as Zend Extension
         if (preg_match('/with\sXdebug\sv([0-9.rcdevalphabeta-]+),/', $phpinfo, $matches)) {
