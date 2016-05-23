@@ -11,8 +11,6 @@
 
 namespace WPNXM\Webinterface\Software\PHPExtension;
 
-use WPNXM\Webinterface\SoftwareBase;
-
 class ZeroMQ extends SoftwareBase
 {
     public $name = 'ZeroMQ';

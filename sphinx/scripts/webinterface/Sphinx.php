@@ -11,8 +11,6 @@
 
 namespace WPNXM\Webinterface\Software;
 
-use WPNXM\Webinterface\SoftwareBase;
-
 /**
  * WPN-XM Webinterface - Class for Sphinx Search x86
  */
