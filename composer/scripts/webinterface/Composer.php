@@ -22,10 +22,10 @@ class Composer extends SoftwareBase
 
     public $registryName = 'composer';
 
-    public $installationFolder = /* WPNXM_ROOT . */ '\bin\composer';
+    public $installationFolder = '\bin\composer';
 
     public $files = [
-        '\bin\composer\composer.exe',
+        '\bin\composer\composer.phar',
     ];
 
     public function __invoke()
