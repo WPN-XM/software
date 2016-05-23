@@ -34,7 +34,7 @@ class Pear extends SoftwareBase
 
         # fail safe, if PEAR not installed
         if (is_file($file) === false) {
-            return \Webinterface\Helper\Serverstack::printExclamationMark('The PHP Extension "mysqli" is required.');
+            return \WPNXM\Webinterface\Helper\Serverstack::printExclamationMark('The PHP Extension "mysqli" is required.');
         }
 
         $maxLines = 60; // read only the first few lines of the file

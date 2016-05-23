@@ -44,7 +44,7 @@ class Memcached extends SoftwareBase
         }
 
         if (extension_loaded('memcache') === false) {
-            return \Webinterface\Helper\Serverstack::printExclamationMark(
+            return \WPNXM\Webinterface\Helper\Serverstack::printExclamationMark(
                 'The PHP Extension "memcache" is required.'
             );
         }
@@ -62,7 +62,7 @@ class Memcached extends SoftwareBase
         if ($available && @$memcache->connect($server, $port)) {
             return $version;
         } else {
-            return \Webinterface\Helper\Serverstack::printExclamationMark(
+            return \WPNXM\Webinterface\Helper\Serverstack::printExclamationMark(
                 'Please wake the Memcache daemon.'
             );
         }

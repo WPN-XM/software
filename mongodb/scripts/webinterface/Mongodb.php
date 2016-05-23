@@ -39,7 +39,7 @@ class Mongodb extends SoftwareBase
         }
 
         if (!extension_loaded('mongo')) {
-            return \Webinterface\Helper\Serverstack::printExclamationMark(
+            return \WPNXM\Webinterface\Helper\Serverstack::printExclamationMark(
                 'The PHP Extension "Mongo" is required.'
             );
         }
@@ -56,7 +56,7 @@ class Mongodb extends SoftwareBase
             // this returns an array with the keys "retval","ok"
             $mongodb_version = $db->execute('return db.version()');
         } catch (\MongoConnectionException $e) {
-            return \Webinterface\Helper\Serverstack::printExclamationMark(
+            return \WPNXM\Webinterface\Helper\Serverstack::printExclamationMark(
                     $e->getMessage().'. Please wake the daemon.'
             );
         }
