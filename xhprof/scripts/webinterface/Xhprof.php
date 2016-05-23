@@ -18,18 +18,35 @@ use WPNXM\Webinterface\SoftwareBase;
  */
 class Xhprof extends SoftwareBase
 {
-    public $name = 'XHGUI for PHP Extension XHProf';
+    public $name = 'XHProf';
 
     public $registryName = 'xhprof';
 
-    public $installationFolder = /* WPNXM_ROOT . */ '\bin\xhprof';
+    public $installationFolder = '\www\tools\xhprof';
 
     public $files = [
-        '\bin\xhprof\xhprof.exe',
+        '\www\tools\xhprof\package.xml',
+        '\www\tools\xhprof\xhprof_html\index.php',
     ];
 
     public function __invoke()
     {
         echo __CLASS__ . ' invoked';
+    }
+
+    /**
+     * Returns Version.
+     *
+     * @return string Version
+     */
+    public function getVersion()
+    {
+        if (!is_file(WPNXM_DIR.$this->files[0])) {
+            return 'not installed';
+        }
+
+        $xml = simplexml_load_file(WPNXM_DIR.$this->files[0]);
+
+        return $xml->version->release;
     }
 }
