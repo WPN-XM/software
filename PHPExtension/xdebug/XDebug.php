@@ -9,14 +9,14 @@
  * For full copyright and license information, view the bundled LICENSE file.
  */
 
-namespace WPNXM\Webinterface\Software;
+namespace WPNXM\Webinterface\Software\PHPExtension;
 
 use WPNXM\Webinterface\SoftwareBase;
 
 /**
  * WPN-XM Webinterface - Class for XDebug
  */
-class PHPExt_XDebug extends SoftwareBase
+class XDebug extends SoftwareBase
 {
     public $name = 'XDebug';
 
