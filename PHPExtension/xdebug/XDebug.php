@@ -11,6 +11,8 @@
 
 namespace WPNXM\Webinterface\Software\PHPExtension;
 
+use WPNXM\Webinterface\Software\SoftwareBase;
+
 /**
  * WPN-XM Webinterface - Class for XDebug
  */

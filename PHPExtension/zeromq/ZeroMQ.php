@@ -11,6 +11,8 @@
 
 namespace WPNXM\Webinterface\Software\PHPExtension;
 
+use WPNXM\Webinterface\Software\SoftwareBase;
+
 class ZeroMQ extends SoftwareBase
 {
     public $name = 'ZeroMQ';
@@ -20,7 +22,7 @@ class ZeroMQ extends SoftwareBase
     public function getVersion()
     {
         if (extension_loaded('zmq') === false) {
-            return \Webinterface\Helper\Serverstack::printExclamationMark(
+            return \WPNXM\Webinterface\Helper\Serverstack::printExclamationMark(
                 'Not implemented yet!'
             );
         }

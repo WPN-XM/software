@@ -43,13 +43,13 @@ class Mariadb extends SoftwareBase
     {
         # fail safe, for unconfigured php.ini files
         if (!function_exists('mysqli_connect')) {
-            return \Webinterface\Helper\Serverstack::printExclamationMark('The PHP Extension "mysqli" is required.');
+            return \WPNXM\Webinterface\Helper\Serverstack::printExclamationMark('The PHP Extension "mysqli" is required.');
         }
 
         $connection = @mysqli_connect('localhost', 'root', $this->getPassword());
 
         if (false === $connection) {
-            return \Webinterface\Helper\Serverstack::printExclamationMark(
+            return \WPNXM\Webinterface\Helper\Serverstack::printExclamationMark(
                sprintf(
                    'MariaDB Connection not possible. Access denied. Check credentials. Error: "%s"',
                    mysqli_connect_error()
@@ -65,7 +65,7 @@ class Mariadb extends SoftwareBase
 
     public function getPassword()
     {
-        $ini = new \Webinterface\Helper\INIReaderWriter(WPNXM_INI);
+        $ini = new \WPNXM\Webinterface\Helper\INIReaderWriter(WPNXM_INI);
 
         return $ini->get('MariaDB', 'password');
     }
@@ -91,7 +91,7 @@ class Mariadb extends SoftwareBase
         );
 
         // write new password to wpn-xm ini
-        $ini = new \Webinterface\Helper\INIReaderWriter(WPNXM_INI);
+        $ini = new \WPNXM\Webinterface\Helper\INIReaderWriter(WPNXM_INI);
         $ini->set('mariadb', 'password', $password);
         $ini->write();
 
