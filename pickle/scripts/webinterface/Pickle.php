@@ -28,6 +28,14 @@ class Pickle extends SoftwareBase
 
     public function getVersion()
     {
-        return 'Not implemented, yet.';
+        $php = WPNXM_BIN . 'php\php.exe';
+        $pickle = WPNXM_DIR . $this->files;  
+ 
+        $cmd = escapeshellcmd($php . ' ' . $pickle . ' -V'); 
+
+        exec($cmd, $stdout);
+  
+        preg_match('#((\d.\d.\d)(-dev)?)#', $stdout[5], $matches);        
+        return $matches[0];
     }
 }
