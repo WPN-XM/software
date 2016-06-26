@@ -9,9 +9,9 @@
  * For full copyright and license information, view the bundled LICENSE file.
  */
 
-namespace WPNXM\Webinterface\Software;
+namespace WPNXM\Webinterface\Software\Nginx;
 
-class Config
+class NginxConfig
 {
     public $nginxConfigFile = WPNXM_BIN.'\nginx\conf\nginx.conf';
 
