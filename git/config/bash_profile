@@ -11,8 +11,6 @@
 # They are not used, if the user creates his/her own .bashrc/.bash_profile.
 #
 
-export PATH="$PATH:/c/server/bin/node/:/c/server/bin/node/node_modules/npm/"
-
 # --show-control-chars: help showing Korean or accented characters
 alias ls='ls -F --color=auto --show-control-chars'
 alias ll='ls -l'
