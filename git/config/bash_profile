@@ -15,15 +15,6 @@
 alias ls='ls -F --color=auto --show-control-chars'
 alias ll='ls -l'
 
-# server control shortcuts
-alias www='cd /c/server/www/'
-alias nxconf='cd /c/server/bin/nginx/conf'
-alias status='cmd //c /c/server/status.bat'
-alias start='cmd //c /c/server/start.bat'
-alias stop='cmd //c /c/server/stop.bat'
-alias restart='cmd //c /c/server/restart.bat'
-alias hosts='cmd //c /c/server/bin/tools/hosts.exe'
-
 # Git aliases
 alias g='git'
 alias gst='git status'
