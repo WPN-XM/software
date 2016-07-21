@@ -39,6 +39,8 @@ http {
             fastcgi_index  index.php;
             fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;
             fastcgi_param  REMOTE_ADDR $http_x_real_ip;
+            # mitigate namespace conflict, see httpoxy.org
+            fastcgi_param  HTTP_PROXY "";
             include        fastcgi_params;
         }
     }
