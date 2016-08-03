@@ -1,0 +1,35 @@
+#
+# .travis.yml - configuration file for the travis continuous integration service
+#
+# see http://about.travis-ci.org/docs/user/languages/php for more hints
+#
+language: php
+
+php: [7.0]
+
+sudo: false
+
+addons:
+  apt:
+    packages:
+      - parallel
+
+script:
+  # PHP lint
+  - >
+    echo;
+    echo "Running PHP lint";
+    find . -name \*.php ! -path "./vendor/*" | parallel --gnu php -d display_errors=stderr -l {} > /dev/null \;
+
+notifications:
+  email: false
+  irc:
+    channels:
+      - "irc.freenode.org#wpnxm"
+    template:
+      - "%{author} @ %{repository} / %{branch} - Build:#%{build_number} : %{message} - Changes: %{compare_url} - Build details: %{build_url}"
+    use_notice: true
+    skip_join: true
+
+git:
+  depth: 10
