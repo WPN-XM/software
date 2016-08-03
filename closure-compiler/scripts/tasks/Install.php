@@ -9,7 +9,7 @@
  * For full copyright and license information, view the bundled LICENSE file.
  */
 
-namespace WPNXM\Software\Closure-compiler\Task;
+namespace WPNXM\Software\ClosureCompiler\Task;
 
 use WPNXM\TaskRunner\TaskBase;
 

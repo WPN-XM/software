@@ -9,7 +9,7 @@
  * For full copyright and license information, view the bundled LICENSE file.
  */
 
-namespace WPNXM\Software\Apache-benchmark\Task;
+namespace WPNXM\Software\ApacheBenchmark\Task;
 
 use WPNXM\TaskRunner\TaskBase;
 

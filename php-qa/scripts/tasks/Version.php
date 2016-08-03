@@ -9,7 +9,7 @@
  * For full copyright and license information, view the bundled LICENSE file.
  */
 
-namespace WPNXM\Software\Php-qa\Task;
+namespace WPNXM\Software\PhpQa\Task;
 
 use WPNXM\TaskRunner\TaskBase;
 

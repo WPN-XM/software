@@ -9,7 +9,7 @@
  * For full copyright and license information, view the bundled LICENSE file.
  */
 
-namespace WPNXM\Software\Php-cs-fixer\Task;
+namespace WPNXM\Software\PhpCsFixer\Task;
 
 use WPNXM\TaskRunner\TaskBase;
 

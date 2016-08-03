@@ -9,7 +9,7 @@
  * For full copyright and license information, view the bundled LICENSE file.
  */
 
-namespace WPNXM\Software\Wpnxm-benchmark\Task;
+namespace WPNXM\Software\WpnxmBenchmark\Task;
 
 use WPNXM\TaskRunner\TaskBase;
 
