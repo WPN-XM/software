@@ -16,7 +16,7 @@
         "version": "todo"
     },
     "bitsize": {
-        "x64": true
+        "x64": true,
         "x86": true
     }
 }
