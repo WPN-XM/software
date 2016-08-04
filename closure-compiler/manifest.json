@@ -1,5 +1,5 @@
 {
-    "name": "GoogleClosureCompiler",
+    "name": "Google Closure Compiler",
     "website": "http:\/\/code.google.com\/p\/closure-compiler\/",
     "description": "The Closure Compiler is a tool for making JavaScript download and run faster. It is a true compiler for JavaScript.",
     "category": "tool",
