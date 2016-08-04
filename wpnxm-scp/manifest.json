@@ -1,5 +1,5 @@
 {
-    "name": "WPN-XMSCP",
+    "name": "WPN-XM SCP",
     "website": "http:\/\/wpn-xm.org\/",
     "description": "The WPN-XM Server Control Panel is a server administration GUI written in C++ using Qt.",
     "category": "wpnxm",
@@ -17,5 +17,6 @@
     },
     "bitsize": {
         "x64": true
+        "x86": true
     }
 }
