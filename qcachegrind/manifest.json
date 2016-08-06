@@ -9,6 +9,7 @@
         "tracing",
         "xdebug"
     ],
+    "logo": "",
     "tasks": {
         "install": "todo",
         "uninstall": "todo",
