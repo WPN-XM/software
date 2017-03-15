@@ -14,7 +14,7 @@ namespace WPNXM\Software\Adminer\Task;
 use WPNXM\TaskRunner\TaskBase;
 
 class Version extends TaskBase
-{    
+{
     public function __construct($file)
     {
         $this->file = $file;
