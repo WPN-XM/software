@@ -6,13 +6,16 @@
 
 The repository contains recipes for configuration and management of third-party software components. 
 
-- This (monolithic) repository is fetched during the creation of the installers. 
-- It ships configs, scripts and additional files to configure and manage an installed component.
-- This enables use use to 
+This (monolithic) repository is fetched during the creation of the installers. 
+
+It ships configs, scripts and additional files to configure and manage an installed component.
+
+This enables us to 
   - include configs for the software assets into the offline installers to configure them out-of-the-box,
   - to include the CLI tasks for the management of the installed software
-  - to inclide webinterface support for the web-based administration and management of the components
-- Each recipe folder is a Composer folder. We use a `git subtree split` strategy to create individual, read-only split-outs for each software. This allows a per-component inclusion into installers and allows updating the config and management scripts via Composer, after installation.
+  - to include webinterface support to allow a web-based administration and management of components.
+  
+Each recipe folder is a Composer folder. We use a `git subtree split` strategy to create individual, read-only split-outs for each software. This allows a per-component inclusion into installers and allows updating the config and management scripts via Composer, after installation.
 
 ## Structure
 
