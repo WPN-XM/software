@@ -6,7 +6,7 @@
 
 The repository contains recipes for configuration and management of third-party software components. 
 
-- The main repository fetched during the creation of the installers. 
+- This (monolithic) repository is fetched during the creation of the installers. 
 - It ships configs, scripts and additional files to configure and manage an installed component.
 - This enables use use to 
   - include configs for the software assets into the offline installers to configure them out-of-the-box,
