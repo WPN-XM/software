@@ -15,7 +15,7 @@ This enables us to
   - to include the CLI tasks for the management of the installed software
   - to include webinterface support to allow a web-based administration and management of components.
   
-Each recipe folder is a Composer folder. We use a `git subtree split` strategy to create individual, read-only split-outs for each software. This allows a per-component inclusion into installers and allows updating the config and management scripts via Composer, after installation.
+Each recipe folder is a Composer folder. We use a `git subtree split` strategy to create individual, read-only split-outs for each software. This allows a per-component inclusion into installers and allows updating the config and management scripts via Composer after installation.
 
 ## Structure
 
