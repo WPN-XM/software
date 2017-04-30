@@ -19,7 +19,7 @@ Each recipe folder is a Composer folder. We use a `git subtree split` strategy t
 
 ## Structure
 
-Each recipes consist of
+Each recipe consist of
 - a `readme.adoc`,
 - a `manifest.json` config file,
 - a `composer.json` file,
