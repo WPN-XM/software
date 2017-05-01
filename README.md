@@ -6,7 +6,7 @@
 
 The repository contains recipes for configuration and management of third-party software components. 
 
-This (monolithic) repository is fetched during the creation of the installers. 
+This monolithic repository is fetched during the creation of the installers. 
 
 It ships configs, scripts and additional files to configure and manage an installed component.
 
@@ -15,7 +15,15 @@ This enables us to
   - to include the CLI tasks for the management of the installed software
   - to include webinterface support to allow a web-based administration and management of components.
   
-Each recipe folder is a Composer folder. We use a `git subtree split` strategy to create individual, read-only split-outs for each software. This allows a per-component inclusion into installers and allows updating the config and management scripts via Composer after installation.
+### Monorepo to MultiRepo: https://github.com/wpnxm-software
+
+Each software asset folder is a Composer folder. 
+
+We use a `git subtree split` strategy to split out the software asset folders into one-way read-only subtree split repositories. 
+
+This enables to update the configuration and management scripts of a software asset after it's installation or update easily using Composer.
+
+You find the individual packages here: https://github.com/wpnxm-software
 
 ## Structure
 
