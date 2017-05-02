@@ -29,19 +29,19 @@ You find the individual packages here: https://github.com/wpnxm-software
 
 ## Structure
 
-Each recipe consist of:
+Each folder consist of the following top-level files and folders:
 - a `readme.adoc`,
 - a `manifest.json` config file,
 - a `composer.json` file,
-- the folders `assets`, `configs`, and `scripts`.
-- the `scripts` folder has two folders `tasks` and `webinterface`.
+- the folders `files`, `configs`, `tasks` and `webinterface`.
+
+Example layout for Nginx - https://github.com/WPN-XM/software/tree/master/nginx :
 
       nginx/
-        assets/
-        configs
-        scripts/
-            tasks/
-            webinterface/
+        files/
+        configs/
+        tasks/
+        webinterface/
         composer.json
         manifest.json
         readme.adoc
