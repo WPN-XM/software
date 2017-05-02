@@ -30,7 +30,7 @@ You find the individual packages here: https://github.com/wpnxm-software
 ## Structure
 
 Each folder consist of the following top-level files and folders:
-- a `readme.adoc`,
+- a `readme.md`,
 - a `manifest.json` config file,
 - a `composer.json` file,
 - the folders `files`, `configs`, `tasks` and `webinterface`.
@@ -44,7 +44,7 @@ Example layout for Nginx - https://github.com/WPN-XM/software/tree/master/nginx 
         webinterface/
         composer.json
         manifest.json
-        readme.adoc
+        readme.md
       
 ## `manifest.json` reference
 
