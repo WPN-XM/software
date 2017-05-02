@@ -34,15 +34,15 @@ Each recipe consist of:
 - the folders `assets`, `configs`, and `scripts`.
 - the `scripts` folder has two folders `tasks` and `webinterface`.
 
-    nginx/
-      assets/
-      configs
-      scripts/
-          tasks/
-          webinterface/
-      composer.json
-      manifest.json
-      readme.adoc
+      nginx/
+        assets/
+        configs
+        scripts/
+            tasks/
+            webinterface/
+        composer.json
+        manifest.json
+        readme.adoc
       
 ## `manifest.json`
 
