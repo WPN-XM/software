@@ -46,9 +46,11 @@ Each recipe consist of:
         manifest.json
         readme.adoc
       
-## `manifest.json`
+## `manifest.json` reference
 
-The `manifest.json` file contents identify a software asset in the context of the WPN-XM Server Stack.
+The `manifest.json` file is a JSON file that contains package metadata.
+It is used to identify a software asset in the context of the WPN-XM Server Stack.
+The manifest is always included in a package.
 
 These keys are used:
 
