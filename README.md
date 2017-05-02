@@ -4,24 +4,26 @@
 [![Total Downloads](https://poser.pugx.org/WPN-XM/software/d/total.png)](https://packagist.org/packages/WPN-XM/software)
 [![Build Status](https://travis-ci.org/WPN-XM/software.png)](https://travis-ci.org/WPN-XM/software) [![License](https://poser.pugx.org/WPN-XM/software/license.png)](https://packagist.org/packages/WPN-XM/software)
 
-The repository contains recipes for configuration and management of third-party software components. 
+## What's this?
 
-This monolithic repository is fetched during the creation of the installers. 
+The repository contains files for installation and configuration management of third-party software components. 
 
 It ships configs, scripts and additional files to configure and manage an installed component.
 
+This monolithic repository is fetched during the creation of the installers. 
+
 This enables us to 
   - include configs for the software assets into the offline installers to configure them out-of-the-box,
-  - to include the CLI tasks for the management of the installed software
+  - to include the CLI tasks for the management of the installed software,
   - to include webinterface support to allow a web-based administration and management of components.
   
-### Monorepo to MultiRepo: https://github.com/wpnxm-software
+## MonoRepo to MultiRepo: https://github.com/wpnxm-software
 
 Each software asset folder is a Composer folder. 
 
 We use a `git subtree split` strategy to split out the software asset folders into one-way read-only subtree split repositories. 
 
-This enables to update the configuration and management scripts of a software asset after it's installation or update easily using Composer.
+This enables Composer updates of the configuration and management scripts for a software asset after installation.
 
 You find the individual packages here: https://github.com/wpnxm-software
 
@@ -33,20 +35,24 @@ Each folder consist of the following top-level files and folders:
 - a `composer.json` file,
 - the folders `files`, `configs`, `tasks` and `webinterface`.
 
-    nginx/
-      files/
-      configs/
-      tasks/
-      webinterface/
-      composer.json
-      manifest.json
-      readme.adoc
+Example layout for Nginx - https://github.com/WPN-XM/software/tree/master/nginx :
+
+      nginx/
+        files/
+        configs/
+        tasks/
+        webinterface/
+        composer.json
+        manifest.json
+        readme.adoc
       
-## `manifest.json`
+## `manifest.json` reference
 
-The `manifest.json` file contents identify a software asset in the context of the WPN-XM Server Stack.
+The `manifest.json` file is a JSON file that contains package metadata.
+It is used to identify a software asset in the context of the WPN-XM Server Stack.
+The manifest is always included in a package.
 
-The keys are used:
+These keys are used:
 
 - `name` - Nice Name of the software
 - `website` - URL to official website
@@ -54,8 +60,8 @@ The keys are used:
 - `category` - (optional) category of the software
 - `tags` - (optional) one or multiple tags 
 - `logo` - (optional) link to the logo in the asset folder
-- `tasks` - The tasks key is used to track the existance & implementation progress for task scripts.
-  - `install`, `uninstall`, `update`, `backup`, `restore`, `version`.
+- `tasks` - The tasks key is used to track the implementation progress of task scripts:
+  - `install`, `uninstall`, `update`, `configure`, `unconfigure`, `backup`, `restore`, `version`.
   
 This is the content of https://github.com/WPN-XM/software/blob/master/nginx/manifest.json :
 
@@ -74,6 +80,8 @@ This is the content of https://github.com/WPN-XM/software/blob/master/nginx/mani
             "install": "todo",
             "uninstall": "todo",
             "update": "todo",
+            "configure": "todo",
+            "unconfigure: "todo",
             "backup": "todo",
             "restore": "todo",
             "version": "todo"
