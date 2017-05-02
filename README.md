@@ -56,8 +56,8 @@ These keys are used:
 - `category` - (optional) category of the software
 - `tags` - (optional) one or multiple tags 
 - `logo` - (optional) link to the logo in the asset folder
-- `tasks` - The tasks key is used to track the existance & implementation progress for task scripts.
-  - `install`, `uninstall`, `update`, `backup`, `restore`, `version`.
+- `tasks` - The tasks key is used to track the implementation progress of task scripts:
+  - `install`, `uninstall`, `update`, `configure`, `unconfigure`, `backup`, `restore`, `version`.
   
 This is the content of https://github.com/WPN-XM/software/blob/master/nginx/manifest.json :
 
