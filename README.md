@@ -59,7 +59,7 @@ These keys are used:
 - `description` - description of the software
 - `category` - (optional) category of the software
 - `tags` - (optional) one or multiple tags 
-- `logo` - (optional) link to the logo in the asset folder
+- `logo` - (optional) link to the logo in the files folder
 - `tasks` - The tasks key is used to track the implementation progress of task scripts:
   - `install`, `uninstall`, `update`, `configure`, `unconfigure`, `backup`, `restore`, `version`.
   
