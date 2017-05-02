@@ -6,7 +6,7 @@
 
 ## What's this?
 
-The repository contains files for configuration and management of third-party software components. 
+The repository contains files for installation and configuration management of third-party software components. 
 
 It ships configs, scripts and additional files to configure and manage an installed component.
 
