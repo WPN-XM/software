@@ -76,6 +76,8 @@ This is the content of https://github.com/WPN-XM/software/blob/master/nginx/mani
             "install": "todo",
             "uninstall": "todo",
             "update": "todo",
+            "configure": "todo",
+            "unconfigure: "todo",
             "backup": "todo",
             "restore": "todo",
             "version": "todo"
