@@ -4,15 +4,15 @@
 [![Total Downloads](https://poser.pugx.org/WPN-XM/software/d/total.png)](https://packagist.org/packages/WPN-XM/software)
 [![Build Status](https://travis-ci.org/WPN-XM/software.png)](https://travis-ci.org/WPN-XM/software) [![License](https://poser.pugx.org/WPN-XM/software/license.png)](https://packagist.org/packages/WPN-XM/software)
 
-The repository contains recipes for configuration and management of third-party software components. 
-
-This monolithic repository is fetched during the creation of the installers. 
+The repository contains files for configuration and management of third-party software components. 
 
 It ships configs, scripts and additional files to configure and manage an installed component.
 
+This monolithic repository is fetched during the creation of the installers. 
+
 This enables us to 
   - include configs for the software assets into the offline installers to configure them out-of-the-box,
-  - to include the CLI tasks for the management of the installed software
+  - to include the CLI tasks for the management of the installed software,
   - to include webinterface support to allow a web-based administration and management of components.
   
 ### Monorepo to MultiRepo: https://github.com/wpnxm-software
@@ -21,19 +21,18 @@ Each software asset folder is a Composer folder.
 
 We use a `git subtree split` strategy to split out the software asset folders into one-way read-only subtree split repositories. 
 
-This enables to update the configuration and management scripts of a software asset after it's installation or update easily using Composer.
+This enables Composer updates of the configuration and management scripts for a software asset after installation.
 
 You find the individual packages here: https://github.com/wpnxm-software
 
 ## Structure
 
-Each recipe consist of
+Each recipe consist of:
 - a `readme.adoc`,
 - a `manifest.json` config file,
 - a `composer.json` file,
-and the folders `assets`, `configs`, and `scripts`.
-
-The `scripts` folder has two folders `tasks` and `webinterface`.
+- the folders `assets`, `configs`, and `scripts`.
+- the `scripts` folder has two folders `tasks` and `webinterface`.
 
     nginx/
       assets/
@@ -49,7 +48,7 @@ The `scripts` folder has two folders `tasks` and `webinterface`.
 
 The `manifest.json` file contents identify a software asset in the context of the WPN-XM Server Stack.
 
-The keys are used:
+These keys are used:
 
 - `name` - Nice Name of the software
 - `website` - URL to official website
