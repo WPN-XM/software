@@ -8,6 +8,7 @@
         "reverse-proxy",
         "proxy"
     ],
+    "version_compatibility": [],
     "logo": "",
     "tasks": {
         "install": "todo",
