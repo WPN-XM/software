@@ -4,6 +4,8 @@
 [![Total Downloads](https://poser.pugx.org/WPN-XM/software/d/total.png)](https://packagist.org/packages/WPN-XM/software)
 [![Build Status](https://travis-ci.org/WPN-XM/software.png)](https://travis-ci.org/WPN-XM/software) [![License](https://poser.pugx.org/WPN-XM/software/license.png)](https://packagist.org/packages/WPN-XM/software)
 
+## What's this?
+
 The repository contains files for configuration and management of third-party software components. 
 
 It ships configs, scripts and additional files to configure and manage an installed component.
@@ -15,7 +17,7 @@ This enables us to
   - to include the CLI tasks for the management of the installed software,
   - to include webinterface support to allow a web-based administration and management of components.
   
-### Monorepo to MultiRepo: https://github.com/wpnxm-software
+## MonoRepo to MultiRepo: https://github.com/wpnxm-software
 
 Each software asset folder is a Composer folder. 
 
