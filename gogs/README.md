@@ -1,3 +1,3 @@
-== GoGitService
+## GoGitService
 
 Go Git Service is a painless self-hosted Git service.

@@ -1,4 +1,4 @@
-== cURL
+## cURL
 
 cURL is an open source command line tool and library for transferring data with
 URL syntax, supporting DICT, FILE, FTP, FTPS, Gopher, HTTP, HTTPS, IMAP, IMAPS,

@@ -1,4 +1,4 @@
-== MongoDB
+## MongoDB
 
 MongoDB (from humongous) is a cross-platform document-oriented database.
 Classified as a NoSQL database, MongoDB eschews the traditional table-based

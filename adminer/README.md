@@ -1,4 +1,4 @@
-== Adminer
+## Adminer
 
 Adminer is a full-featured database management tool written in PHP. Conversely
 to phpMyAdmin, it consist of a single file ready to deploy to the target server.

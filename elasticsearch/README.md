@@ -1,4 +1,4 @@
-== ElasticSearch
+## ElasticSearch
 
 Elasticsearch is a search server based on Lucene. It provides a distributed,
 multitenant-capable full-text search engine with an HTTP web interface and

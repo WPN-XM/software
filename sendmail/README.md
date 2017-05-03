@@ -1,2 +1,2 @@
-== FakeSendmail
+## FakeSendmail
 

@@ -1,4 +1,4 @@
-== PhantomJS
+## PhantomJS
 
 PhantomJS is a scripted, headless browser used for automating web page
 interaction. PhantomJS provides a JavaScript API enabling automated navigation,

@@ -1,4 +1,4 @@
-== Selenium
+## Selenium
 
 Selenium is a portable software testing framework for web applications. Selenium
 provides a record/playback tool for authoring tests without learning a test

@@ -1,3 +1,3 @@
-== pickle
+## pickle
 
 PHP Extension Installer.

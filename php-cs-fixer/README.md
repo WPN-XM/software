@@ -1,2 +1,2 @@
-== PHPCSFixer
+## PHPCSFixer
 

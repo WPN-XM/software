@@ -1,4 +1,4 @@
-== PHPQA
+## PHPQA
 
 Unstable/QA version of PHP (recursive acronym for PHP: Hypertext Preprocessor)
 is a widely-used open source general-purpose scripting language that is
